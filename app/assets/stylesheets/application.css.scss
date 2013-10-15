@@ -1,8 +1,19 @@
-$blue: #2ac7ff;
+$blue:       #2ac7ff;
+$lightblue:  #9bdaff;
+$darkblue:   #082189;
+$redorange:  #d53800;
 $lightgreen: #dbffb1;
-$darkgreen: #17631e;
-$darkgray: #1d1d1d;
-$gray: #aeadaf;
+$green:      #09d211;
+$darkgreen:  #17631e;
+$lightpurple:#c7afff;
+$purple:     #4900a1;
+$orange:     #ffa84e;
+$lightgray:  #d2d2d2;
+$darkgray:   #1d1d1d;
+$gray:       #aeadaf;
+$white:      #ffffff;
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Noto+Sans:400,700|Julius+Sans+One);
 
-@import "bootstrap_and_overrides"
+@import "base";
+@import "bootstrap_and_overrides";
+@import "impress";

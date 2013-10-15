@@ -1,8 +1,9 @@
 $font-family-sans-serif: 'Open Sans';
 $headings-font-family: "Julius Sans One";
-
+$font-size-base: 16px;
 $navbar-default-bg: $blue;
 $navbar-default-link-color: lighten($blue, 40%);
 $navbar-default-link-hover-color: $lightgreen;
 
 @import "bootstrap";
+@import "font-awesome";

@@ -1,7 +1,141 @@
-
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1><%= t(:home_welcome_message) %></h1>
-    <p> Here we go...</p>
+<div class="hint">
+  <p><%= t(:hint_instructions) %></p>
+</div>
+<div id='impress' class='col-xs-12'>
+  <div class='step' id='ben-eggett' data-scale='5' data-x="0" data-y="0">
+    <div class='jumbotron back-blue'>
+      <div class="container text-center ">
+        <%= image_tag('Ben-Eggett-400.jpg', class: 'img-circle') %>
+        <h1 class='white'><%= t(:site_name) %></h1>
+        <ul class='list-inline list-unstyled'>
+          <% %w(twitter facebook instagram linkedin google_plus github).each do |link| %>
+            <li><h4><%= link_to send(link + '_link'), target: "_blank" do %>
+              <i class="white icon-<%= link.dasherize %>"></i></h4>
+              <% end %>
+            </li>
+          <% end %>
+      </div>
+    </div>
   </div>
+
+  <div class='step medium' id='about-me' data-scale='4' data-x="4000" data-y="0" data-rotate="90">
+    <div class='jumbotron back-lightgreen'>
+      <div class="container text-center ">
+        <h4> <%= t(:i_am_a) %>
+          <%= link_to t(:developer), github_link, target: "_blank", class: 'redorange' %>, 
+          <span class='blue'><%= t(:designer) %></span>, 
+          <%= link_to t(:instructor), devpoint_labs_link, target: "_blank", class: 'darkblue' %>,
+          <%= link_to t(:organizer), drug_link, target: "_blank", class: 'darkgreen' %>,
+          <span class='purple'><%= t(:builder) %></span>, <%= t(:and) %> 
+          <span class='orange'><%= t(:writer) %></span> 
+        </h3>
+      </div>
+    </div>
+  </div>  
+
+  <div class='step wide' id='residence' data-scale='4' data-x="4000" data-y="2400" data-rotate="90">
+    <div class='jumbotron back-blue'>
+      <div class="container text-center ">
+        <h3 class='white'> <%= t(:i_currently_live_in) %>
+          <span class='purple'><%= t(:salt_lake_city) %></span>, 
+          <%= t(:and) %> <%= t(:have_lived_in) %>
+          <span class='redorange'><%= t(:japan) %></span>,
+          <span class='darkgreen'><%= t(:brazil) %></span>,
+          <span class='lightgreen'><%= t(:washington_dc) %></span>, 
+          <%= t(:and) %> 
+          <span class='darkgray'><%= t(:virginia) %></span>, 
+        </h3>
+      </div>
+    </div>
+  </div> 
+
+  <div class='step medium' id='languages' data-scale='4' data-x="4000" data-y="4800" data-rotate="90">
+    <div class='jumbotron back-darkblue'>
+      <div class="container text-center ">
+        <h3 class='white'> <%= t(:i_speak) %>
+          <span class='redorange'><%= t(:japanese) %></span>, 
+          <span class='lightgreen'><%= t(:spanish) %></span>,
+          <span class='green'><%= t(:portuguese) %></span>,
+          <%= t(:and) %> 
+          <span class='blue'><%= t(:native_english) %></span>
+        </h3>
+      </div>
+    </div>
+  </div> 
+
+  <div class='step medium' id='my-interests' data-scale='4' data-x="4000" data-y="7200" data-rotate="90">
+    <div class='jumbotron back-darkgreen'>
+      <div class="container text-center ">
+        <h3 class='white'> <%= t(:i_like_to) %>
+          
+          <span class='blue'><%= t(:ski) %></span>, 
+          <span class='redorange'><%= t(:longboard) %></span>, 
+          <span class='green'><%= t(:motorcycle) %></span>, 
+          <span class='darkblue'><%= t(:play_guitar) %></span>,
+          <span class='lightgray'><%= t(:swim) %></span>,
+          <span class='lightgreen'><%= t(:travel) %></span>,
+
+          <span class='purple'><%= t(:read) %></span>, 
+          <span class='orange'><%= t(:learn) %></span>
+          <%= t(:and) %> . . . 
+          
+        </h3>
+      </div>
+    </div>
+  </div>   
+
+  <div class='step' id='lily' data-scale='0.3' data-x="3415" data-y="7800" data-rotate="90"> 
+    <div class="container text-center ">
+      <%= image_tag('ben-lily-guitar.jpg', class: 'img-circle') %>
+      <h3 class='lightpurple'> <%= t(:i_love_my_wife_lily) %> </h3>
+    </div>
+  </div>
+
+  <div class="step medium" id='building' data-scale='4' data-x="-4500" data-y="2000" data-rotate="270">   
+    <div class='jumbotron back-transparent'>
+      <div class="container text-center ">
+        <h2 class='text-center green'><%= t(:i_like_to) + ' ' + t(:build_things) %></h2>
+        <h3 class='text-center'>
+          <i class='icon-desktop'></i>
+          <i class='icon-laptop'></i>
+          <i class='icon-tablet'></i>
+          <i class='icon-mobile-phone'></i>
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="step wide" id='tools' data-scale='3' data-x="-4500" data-y="-820" data-rotate="270">   
+    <div class='jumbotron back-lightblue'>
+      <div class="container  text-center ">
+        <h2 class='font-5 text-center white'><%= t(:tools_i_use) %>:</h2>
+        <ul class='list-unstyled list-inline'>
+          <% tools.each do |program| %>
+          <li class='icons'><%= link_to image_tag("icons/#{program}_2x.png", class: 'has_tooltip', data: {toggle: "tooltip", placement: 'top'}, title: "#{ t(program.to_sym)}"), send(program + '_url'), target: '_blank' %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="step" id='projects' data-scale='4' data-x="-4500" data-y="-3500"  data-rotate-x="-40" data-rotate-y="90" data-rotate-z="90">     
+    <h2 class='text-center redorange'><%= t(:many_projects) %>  <small><%= t(:number_of_projects) %></small></h2>
+  </div>
+  <div class="step wide" id='clients'  data-scale='2' data-x="-2500" data-y="-2500" data-rotate-x="-120" >      
+    <div class='page-header text-center'>
+      <h2 class='redorange'><%= t(:for_many_clients) %>:</h2>
+    </div>
+    <div class='row'>
+      <% clients.each_slice(19) do |chunk| %>
+        <div class='col-sm-3 text-center'>
+          <ul class='list-unstyled'>
+            <% chunk.each do |client| %>
+              <li><%= client %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+  </div>  
 </div>
