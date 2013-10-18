@@ -1,5 +1,9 @@
 module ApplicationHelper
 
+  def cp(path)
+    "current" if current_page?(path)
+  end
+
   def twitter_link
     "http://www.twitter.com/beneggett"
   end
@@ -94,7 +98,7 @@ module ApplicationHelper
   end
 
   def travis_url
-    "https://travis-ci.org/"
+    "http://travis-ci.com/"
   end
 
   def iterm_url

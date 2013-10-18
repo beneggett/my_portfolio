@@ -18,15 +18,6 @@ ja:
   writer:                                 "作家です"
   speaker:                                "スピーカー"
 
-  i_like_to:                              "I like to"
-  ski:                                    "ski"
-  longboard:                              "longboard"
-  play_guitar:                            "play guitar"
-  travel:                                 "travel"
-  read:                                   "read"
-  swim:                                   "swim"
-  learn:                                  "learn"  
-
   i_speak:                                ""
   japanese:                               "日本語"
   spanish:                                "スペイン語"
@@ -55,7 +46,7 @@ ja:
   i_love_my_wife_lily:                    "私の妻リリー(Lily)を愛していうます"
 
   build_things:                           "物事を構築する"
-  tools_i_use:                            "Tools I use"
+  tools_i_use:                            "私が使用する工具"
   aftereffects:                           "After Effects"
   aws:                                    "AWS" 
   coffeescript:                           "CoffeeScript" 
@@ -84,7 +75,7 @@ ja:
   sublime_text:                           "Sublime Text"
   travis:                                 "Travis" 
 
-  projects:                               "Projects"
-  many_projects:                          "I have done many projects"
-  number_of_projects:                     "(125+ and counting)"
-  for_many_clients:                       "For many clients"
+  projects:                               "プロジェクト"
+  many_projects:                          "多くのプロジェクトを行いました"
+  number_of_projects:                     "(125 + 数えています)"
+  for_many_clients:                       "多くのクライアントのために"
