@@ -9,6 +9,17 @@ en:
   select_language:                        "Select Language"
   hint_instructions:                      "Use the spacebar or arrow keys to navigate"
 
+  ben_eggett_anchor:                      "ben-eggett"
+  about_me_anchor:                        "about-me"
+  residence_anchor:                       "residence"
+  languages_anchor:                       "languages"
+  my_interests_anchor:                    "my-interests"
+  lily_anchor:                            "lily"
+  building_anchor:                        "building"
+  tools_anchor:                           "tools"
+  projects_anchor:                        "projects"
+  clients_anchor:                         "clients"
+  
   i_am_a:                                 "I am a"
   developer:                              "developer"
   designer:                               "designer"

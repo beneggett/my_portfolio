@@ -1,8 +1,8 @@
 <div class="hint">
   <p><%= t(:hint_instructions) %></p>
 </div>
-<div id='impress' class='col-xs-12'>
-  <div class='step' id='ben-eggett' data-scale='5' data-x="0" data-y="0">
+<div id="impress" class='col-xs-12'>
+  <div class='step' id="<%= t(:ben_eggett_anchor) %>" data-scale='5' data-x="0" data-y="0">
     <div class='jumbotron back-blue'>
       <div class="container text-center ">
         <%= image_tag('Ben-Eggett-400.jpg', class: 'img-circle') %>
@@ -18,7 +18,7 @@
     </div>
   </div>
 
-  <div class='step medium' id='about-me' data-scale='4' data-x="4000" data-y="0" data-rotate="90">
+  <div class='step medium' id="<%= t(:about_me_anchor) %>" data-scale='4' data-x="4000" data-y="0" data-rotate="90">
     <div class='jumbotron back-lightgreen'>
       <div class="container text-center ">
         <h4> <%= t(:i_am_a) %>
@@ -33,7 +33,7 @@
     </div>
   </div>  
 
-  <div class='step wide' id='residence' data-scale='4' data-x="4000" data-y="2400" data-rotate="90">
+  <div class='step wide' id="<%= t(:residence_anchor) %>" data-scale='4' data-x="4000" data-y="2400" data-rotate="90">
     <div class='jumbotron back-blue'>
       <div class="container text-center ">
         <h3 class='white'> <%= t(:i_currently_live_in) %>
@@ -49,7 +49,7 @@
     </div>
   </div> 
 
-  <div class='step medium' id='languages' data-scale='4' data-x="4000" data-y="4800" data-rotate="90">
+  <div class='step medium' id="<%= t(:languages_anchor) %>" data-scale='4' data-x="4000" data-y="4800" data-rotate="90">
     <div class='jumbotron back-darkblue'>
       <div class="container text-center ">
         <h3 class='white'> <%= t(:i_speak) %>
@@ -63,7 +63,7 @@
     </div>
   </div> 
 
-  <div class='step medium' id='my-interests' data-scale='4' data-x="4000" data-y="7200" data-rotate="90">
+  <div class='step medium' id="<%= t(:my_interests_anchor) %>" data-scale='4' data-x="4000" data-y="7200" data-rotate="90">
     <div class='jumbotron back-darkgreen'>
       <div class="container text-center ">
         <h3 class='white'> <%= t(:i_like_to) %>
@@ -84,14 +84,14 @@
     </div>
   </div>   
 
-  <div class='step' id='lily' data-scale='0.3' data-x="3415" data-y="7800" data-rotate="90"> 
+  <div class='step' id="<%= t(:lily_anchor) %>" data-scale='0.3' data-x="3415" data-y="7800" data-rotate="90"> 
     <div class="container text-center ">
       <%= image_tag('ben-lily-guitar.jpg', class: 'img-circle') %>
       <h3 class='lightpurple'> <%= t(:i_love_my_wife_lily) %> </h3>
     </div>
   </div>
 
-  <div class="step medium" id='building' data-scale='4' data-x="-4500" data-y="2000" data-rotate="270">   
+  <div class="step medium" id="<%= t(:building_anchor) %>" data-scale='4' data-x="-4500" data-y="2000" data-rotate="270">   
     <div class='jumbotron back-transparent'>
       <div class="container text-center ">
         <h2 class='text-center green'><%= t(:i_like_to) + ' ' + t(:build_things) %></h2>
@@ -105,7 +105,7 @@
     </div>
   </div>
 
-  <div class="step wide" id='tools' data-scale='3' data-x="-4500" data-y="-820" data-rotate="270">   
+  <div class="step wide" id="<%= t(:tools_anchor) %>" data-scale='3' data-x="-4500" data-y="-820" data-rotate="270">   
     <div class='jumbotron back-lightblue'>
       <div class="container  text-center ">
         <h2 class='font-5 text-center white'><%= t(:tools_i_use) %>:</h2>
@@ -119,10 +119,10 @@
   </div>
 
 
-  <div class="step medium" id='projects' data-scale='4' data-x="-4500" data-y="-3500"  data-rotate-x="-40" data-rotate-y="90" data-rotate-z="90">     
+  <div class="step medium" id="<%= t(:projects_anchor) %>" data-scale='4' data-x="-4500" data-y="-3500"  data-rotate-x="-40" data-rotate-y="90" data-rotate-z="90">     
     <h2 class='text-center redorange'><%= t(:many_projects) %>  <br /><small> <%= t(:number_of_projects) %> </small></h2>
   </div>
-  <div class="step wide" id='clients'  data-scale='2' data-x="-2500" data-y="-2500" data-rotate-x="-120" >      
+  <div class="step wide" id="<%= t(:clients_anchor) %>"  data-scale='2' data-x="-2500" data-y="-2500" data-rotate-x="-120" >      
     <div class='page-header text-center'>
       <h2 class='redorange'><%= t(:for_many_clients) %>:</h2>
     </div>

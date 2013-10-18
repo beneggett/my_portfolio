@@ -8,6 +8,17 @@ es:
   select_language:                        "Seleccione Idioma"
   hint_instructions:                      "Utilice la barra espaciadora o las flechas para navegar"
 
+  ben_eggett_anchor:                      "ben-eggett"
+  about_me_anchor:                        "sobre-yo"
+  residence_anchor:                       "residencia"
+  languages_anchor:                       "idiomas"
+  my_interests_anchor:                    "mis-intereses"
+  lily_anchor:                            "lily"
+  building_anchor:                        "construir"
+  tools_anchor:                           "herramientas"
+  projects_anchor:                        "proyectos"
+  clients_anchor:                         "clientes"
+
   i_am_a:                                 "Yo soy un"
   developer:                              "desarrollador"
   designer:                               "diseñador"

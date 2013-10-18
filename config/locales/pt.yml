@@ -9,6 +9,17 @@ pt:
   select_language:                        "Selecione o idioma"
   hint_instructions:                      "Use a barra de espaço ou as setas para navegar"
 
+  ben_eggett_anchor:                      "ben-eggett"
+  about_me_anchor:                        "sobre-mim"
+  residence_anchor:                       "residencia"
+  languages_anchor:                       "linguas"
+  my_interests_anchor:                    "meus-interesses"
+  lily_anchor:                            "lily"
+  building_anchor:                        "construir"
+  tools_anchor:                           "ferramentas"
+  projects_anchor:                        "projetos"
+  clients_anchor:                         "clientes"
+
   i_am_a:                                 "Eu sou um"
   developer:                              "revelador"
   designer:                               "desenhista"

@@ -8,6 +8,18 @@ ja:
   select_language:                        "言語を選択する"
   hint_instructions:                      "スペースバーまたは矢印キーを使用してください"
 
+
+  ben_eggett_anchor:                      "エゲットベン"
+  about_me_anchor:                        "私について"
+  residence_anchor:                       "居住地"
+  languages_anchor:                       "言語"
+  my_interests_anchor:                    "興味"
+  lily_anchor:                            "lily"
+  building_anchor:                        "構築"
+  tools_anchor:                           "工具"
+  projects_anchor:                        "プロジェクト"
+  clients_anchor:                         "クライアント"
+  
   i_am_a:                                 "私は"
   developer:                              "開発者"
   designer:                               "デザイナー"
