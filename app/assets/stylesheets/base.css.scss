@@ -1,0 +1,136 @@
+@for $i from 0 to 11 {
+  $multiplier: $i * 10;
+  .font-#{$i}{
+    font-size: #{$multiplier + 16}px !important;
+  }
+  
+}
+
+
+@for $i from 0 to 21 {
+  $multiplier: $i * 5;
+  .margin-#{$multiplier} {
+    margin: #{$multiplier}px;
+  }
+  .pad-#{$multiplier} {
+    padding: #{$multiplier}px;
+  }
+  .pad-horizontal-#{$multiplier} {
+    padding: 0 #{$multiplier}px;
+  }
+  .pad-vertical-#{$multiplier} {
+    padding: #{$multiplier}px 0;
+  }    
+  .top-#{$multiplier} {
+    margin-top: #{$multiplier}px;
+  }
+  .left-#{$multiplier} {
+    margin-left: #{$multiplier}px;
+  }
+  .right-#{$multiplier} {
+    margin-right: #{$multiplier}px;
+  }
+  .bottom-#{$multiplier} {
+    margin-bottom: #{$multiplier}px;
+  }
+}
+
+.lined-paper{
+  background-color: #fff; 
+  background-image: 
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+.blue{
+  color: $blue !important;
+}
+.lightblue{
+  color: $lightblue !important;
+}
+.redorange{
+  color: $redorange !important;
+}
+.lightgreen{
+  color: $lightgreen !important;
+}
+.darkgreen{
+  color: $darkgreen !important;
+}
+.darkblue{
+  color: $darkblue !important;
+}
+.orange{
+  color: $orange !important;
+}
+.lightpurple{
+  color: $lightpurple !important;
+}
+.purple{
+  color: $purple !important;
+}
+.darkgray{
+  color: $darkgray !important;
+}
+.lightgray{
+  color: $lightgray !important;
+}
+.gray{
+  color: $gray !important;
+}
+.white{
+  color: $white !important;
+}
+.green{
+  color: $green !important;
+}
+.transparent{
+  color: transparent !important;
+}
+.back-blue{
+  background-color: $blue !important;
+}
+.back-lightblue{
+  background-color: $lightblue !important;
+}
+.back-redorange{
+  background-color: $redorange !important;
+}
+.back-lightgreen{
+  background-color: $lightgreen !important;
+}
+.back-darkgreen{
+  background-color: $darkgreen !important;
+}
+.back-darkblue{
+  background-color: $darkblue !important;
+}
+.back-orange{
+  background-color: $orange !important;
+}
+.back-purple{
+  background-color: $purple !important;
+}
+.back-lightpurple{
+  background-color: $lightpurple !important;
+}
+.back-darkgray{
+  background-color: $darkgray !important;
+}
+.back-lightgray{
+  background-color: $lightgray !important;
+}
+.back-gray{
+  background-color: $gray !important;
+}
+.back-white{
+  background-color: $white !important;
+}
+.back-green{
+  background-color: $green !important;
+}
+.back-transparent{
+  background-color: transparent !important;
+}
+
+
