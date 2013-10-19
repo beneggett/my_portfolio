@@ -20,6 +20,13 @@ pt:
   projects_anchor:                        "projetos"
   clients_anchor:                         "clientes"
 
+  contact_me:                             "Contact Me"
+  get_in_touch:                           "Get in touch"
+  email_address_placeholder:              "Please enter your email address"
+  email_name_placeholder:                 "Your full name, please"
+  email_subject_placeholder:              "What do you want to talk to me about?"
+  email_body_placeholder:                 "Write me a message."
+  
   i_am_a:                                 "Eu sou um"
   developer:                              "revelador"
   designer:                               "desenhista"

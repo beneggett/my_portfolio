@@ -10,9 +10,10 @@
   </div>
   <div class="collapse navbar-collapse primary-navbar-collapse">
     <ul class="nav navbar-nav">
-      <li><%= link_to t(:about), "#/about-me" %></li>
-      <li><%= link_to t(:tools_i_use), "#/tools" %></li>
-      <li><%= link_to t(:projects), "#/projects" %></li>
+      <li><%= link_to t(:about), root_url + "#/#{t(:about_me_anchor)}" %></li>
+      <li><%= link_to t(:tools_i_use), root_url + "#/#{t(:tools_anchor)}" %></li>
+      <li><%= link_to t(:projects), root_url + "#/#{t(:projects_anchor)}" %></li>
+      <li><%= link_to t(:contact_me), contact_path %></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
