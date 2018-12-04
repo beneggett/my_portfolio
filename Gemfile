@@ -10,7 +10,7 @@ gem 'simple_form'
 gem 'devise'
 gem "figaro"
 gem 'newrelic_rpm'
-
+gem 'json'
 group :development do
   gem 'powder'
   gem 'pry-rails'
