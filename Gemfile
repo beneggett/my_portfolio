@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'rails', '3.2.15'
 
 # Bundle edge Rails instead:
@@ -28,7 +28,7 @@ group :assets do
   gem "font-awesome-rails"
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem "bootstrap-sass", github: "thomas-mcdonald/bootstrap-sass", branch: '3'
+  gem "bootstrap-sass", github: "twbs/bootstrap-sass", branch: '3.0-stable'
   gem 'uglifier', '>= 1.0.3'
 end
 
