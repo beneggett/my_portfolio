@@ -10,19 +10,19 @@ module ApplicationHelper
 
   def facebook_link
     "http://www.facebook.com/beneggett"
-  end  
+  end
 
   def instagram_link
     "http://www.instagram.com/beneggett"
   end
-  
+
   def linkedin_link
     "http://www.linkedin.com/in/beneggett"
-  end    
+  end
 
   def google_plus_link
     "https://plus.google.com/u/1/108541203447709439226"
-  end    
+  end
 
   def github_link
     "https://github.com/beneggett"
@@ -30,7 +30,7 @@ module ApplicationHelper
 
   def devpoint_labs_link
     "http://devpointlabs.com/about-1/#block-41345e182146ea3dfb93"
-  end  
+  end
 
   def drug_link
     "http://utruby.org/#downtown.rb"
