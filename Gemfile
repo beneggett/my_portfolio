@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+ruby "2.6.2"
 gem 'rails', '3.2.15'
 
 # Bundle edge Rails instead:
